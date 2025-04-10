@@ -1,0 +1,30 @@
+
+/* Importar a fonte Montserrat do Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat,sans-serif';
+    font-size: 1rem;
+}
+body{
+background-color: #999999;
+}
+header{
+    height: 256px;
+    background-color: rgb(53, 120, 207);
+    /* Adicionar imagem no fundo do elemento */
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/04/15/09/barbecue-5002651_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+
+    
+}
